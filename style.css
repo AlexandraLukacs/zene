@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(189,183,120,0.5);
+    padding: 0;
+}
+
+main {
+    max-width: 80%;
+    padding: auto;
+    margin: auto;
+}
