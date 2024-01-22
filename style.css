@@ -1,10 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgba(189,183,120,0.5);
     padding: 0;
 }
 
 main {
-    max-width: 80%;
-    padding: auto;
+    max-width: 800px;
+    padding: 0;
     margin: auto;
+    color: #5a4535;
+    text-align: justify;
+    font-family: 'Calibri', Garamond, 'Comic Sans MS';
+    font-size: 12px;
+}
+
+nav {
+    background-color: rgba(189,183,120,0.5);
+    grid-area: n;
+    background-image: url("kepek/bg-nav.png");
+    text-align: center;
+    margin-top: 3px;
+    background-size: cover;
+}
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    font-family: 'Margarine', cursive;
+    text-transform: uppercase;
+    height: 45px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a4535;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+header {
+    background-color: rgba(189,183,120,0.5);
+    grid-area: h;
+}
+
+header img {
+    max-width: 800px;
+}
+
+article {
+    background-color: rgba(189,183,120,0.5);
+    grid-area: a;
+    border: 2px solid #999658;
+    padding: 5px;
+}
+
+section p {
+    text-align: left; 
+}
+
+article h2 {
+    border-top: 2px dotted #5a4535;
+    border-bottom: 2px dotted #5a4535;
+    font-family: 'Margarine', cursive;
+    color: darkcyan;
+    font-weight: bold;
+    background-color: rgba(190,165,50,0.5);
+}
+
+footer {
+    background-color: rgba(189,183,120,0.5);
+    grid-area: f;
+}
+
+article .kep {
+    float: right;
+}
+
+article li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 720px) {
+    main {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "n"
+        "h"
+        "a"
+        "f";
+    }
+    
 }

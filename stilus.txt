@@ -35,7 +35,7 @@ Ha a menüpontok fölé viszem az egeret, változzon meg a betűk színe!
 
 article szegélyszín:  #999658; 
 5 px paddingja van.   
-    
+        
 A címek alá és felé készíts pontozott szegélyt! Szegély színe: #5a4535
 A szöveget alakítsd nagybetűssé.
 betűcsaládja 'Margarine',cursive;   
