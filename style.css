@@ -94,6 +94,10 @@ article li {
     list-style-type: none;
 }
 
+table tr td {
+    border: 2px solid white;
+}
+
 @media screen and (max-width: 720px) {
     main {
         display: grid;
